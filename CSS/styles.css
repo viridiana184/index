@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    header{
+            display: flex;
+            background-color: #dfd1d1;
+            color: white;
+            text-align: center;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            align-items: center;
+            justify-content: center;
+            background-image: url('https://th.bing.com/th/id/R.3064e8c18ee615f6fc826af2f8994cf6?rik=jexbwvUOrophMw&pid=ImgRaw&r=0');
+           
+        }
+        .container{
+             display: flex;
+             justify-content:space-between;    
+             
+        }
+        .main-content{
+            width: 70%;
+            background-color: white; 
+            padding: 20px; 
+            border-radius: 10px; 
+            box-shadow:#333;
+            text-align: center;
+            margin: 10px;
+        }
+        aside {
+            height: 286px;
+            padding: 20px; 
+            border-radius: 10px; 
+            background: #c4c2c2;
+            margin: 10px;
+        }
+        .cards {
+            margin:auto;
+            height: 26px;
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 20px;
+        }
+
+        .card {
+            margin:auto;
+            width: 30%;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 9px rgba(0, 0, 0, 0.1); 
+            padding: 15px; 
+            margin-bottom: 20px; 
+
+            }
+        footer{
+           
+            position: relative;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top:20px;
+            bottom: -18px;
+        }
+        .cla{
+            
+            th:hover {
+                background-color: #ec6969a3;
+            }
+            td:hover {
+                background-color: #eac8c8;
+            }
+                    table {
+                        border-collapse: collapse;
+                        text-align: center; 
+                        width: 100%;
+                        height: 100vh; ;  
+                    }
+            tr {
+                        border: 10px solid rgba(14, 46, 228, 0.973); 
+                        text-align: center; 
+                        padding: 10px; 
+            }
+            th{
+                background-color: #241f1f;
+                color:white;
+            }
+            
+             td {
+                border: 10px solid rgba(14, 46, 228, 0.973); 
+                padding: 10px;
+            }
+              tr:nth-child(even) {
+              color:rgb(130, 124, 124);
+              }
+              tr:nth-child(4) {
+              color:rgb(21, 19, 19);
+              }
+        }
+        .tra{
+            body:hover{
+                transform: scale(1,2);
+            }
+            h2{
+               text-align: center;
+    
+            }
+            .con{
+            box-shadow: 8px 10px 15px black;
+            width: 300px;
+            height: auto;
+            background-color: rgb(230, 164, 239);
+            border-radius: 10px;
+            margin: 20px auto;
+            text-align: center;
+            padding: 3px;
+            }
+            div{
+            box-shadow: 8px 10px 15px black;
+            width: 200px;
+            height: auto;
+            background-color: rgb(224, 179, 182);
+            border-radius: 10px;
+            margin: 20px auto;
+            text-align: center;
+            padding: 0px;
+            }
+            .con :hover{
+                transform: scale(1,2);
+            }
+            #o:hover{
+                transition: transform 1.5s ease;
+            }
+            #po:hover{
+                transition: transform 1.5s ease;
+            }
+            #dit:hover{
+                transition: transform 1.5s ease;
+            }
+            #o:hover{
+                transform: rotate(20deg);
+            }
+            #po:hover{
+                transform: translate(-10px)
+            }
+            #dt:hover{
+                transform: translateX(30px);
+            }
+            #bo:hover{
+             background-color: rgb(140, 255, 0);
+            }
+            #bo{
+                background-color: rgb(179, 235, 197);
+            }
+        }
+        .pr{
+            button:hover{
+                background-color: red;
+            }
+            h2::before{
+               content: "🌷🧚‍♂️" 
+            }
+            img{
+                border: 3px solid violet;
+            }
+            div{
+                 border: 3px solid black; 
+                 text-align: center;
+                 margin: 20%;
+                 background-color: rgb(171, 208, 241);
+            }
+            button{
+                background-color: rgb(216, 190, 191);
+            }
+        }
